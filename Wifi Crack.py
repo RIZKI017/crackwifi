@@ -1,3 +1,10 @@
+echo" Hack wifi tetanga "
+echo" ODADING MANG OLEH RASANYA ANJIM BANGET "
+echo" sicrip by.RIFKIAR017 "
+echo" gunakan jika QUOTA DATA anda mulai habis :v "
+
+
+
 data = subprocess.check_output(['nestsh', 'wlan', 'show', 'profiles']).decode('utf-8*).slipt(*\n*)
 profiles =[i.split(":")[1][1:-1] for i in data if "All User Profile" in i)
 for i in profiles:
